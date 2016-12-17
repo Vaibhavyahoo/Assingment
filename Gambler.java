@@ -27,10 +27,21 @@ public class Gambler
 			if(cash==goal)
 			{
 				win++;
+                                //System.out.println("Congratulation u r win " +win );
+
 			}
 			else
 				loss++;
-		}
+                         
+                               /*System.out.println("no. of loss "+loss);
+                                if(win==goal)
+                                {
+                                  System.out.println("Congratulation u r win"+win);
+                                 else
+                                  System.out.println("sorry u are loss"+loss);
+
+                               	}*/
+                }
 		System.out.println("no. of wins " +win );
 		System.out.println("no. of loss "+loss);
 	}
